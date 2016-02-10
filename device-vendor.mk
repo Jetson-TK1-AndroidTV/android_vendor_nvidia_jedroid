@@ -18,5 +18,5 @@
 PRODUCT_COPY_FILES := \
     $(call find-copy-subdir-files,*,vendor/nvidia/jedroid/proprietary/etc,system/etc) \
     $(call find-copy-subdir-files,*,vendor/nvidia/jedroid/proprietary/lib,system/lib) \
-    $(call find-copy-subdir-files,*,vendor/nvidia/jedroid/proprietary/vendor,system/vendor) 
+    $(call find-copy-subdir-files,*,vendor/nvidia/jedroid/proprietary/vendor,vendor) 
 
